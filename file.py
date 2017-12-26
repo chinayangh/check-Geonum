@@ -16,7 +16,7 @@ for i in range(1,10):
 # for line in f:
 #     #print(line)
 #     hao=line.rstrip("\n")
-    #url = 'https://cx.shouji.360.cn/phonearea.php?number=' + hao
+    
     url = 'https://cx.shouji.360.cn/phonearea.php?number=' + hao
     # r = requests.get('https://cx.shouji.360.cn/phonearea.php?number=13838384380')
     # url = 'https://cx.shouji.360.cn/phonearea.php?number=' + hao
