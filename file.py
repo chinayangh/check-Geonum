@@ -19,7 +19,7 @@ for i in range(1,10):
     
     url = 'https://cx.shouji.360.cn/phonearea.php?number=' + hao
     # r = requests.get('https://cx.shouji.360.cn/phonearea.php?number=13838384380')
-    # url = 'https://cx.shouji.360.cn/phonearea.php?number=' + hao
+    
     r = requests.get(url)
     msg=r.json()
     #print(msg)
