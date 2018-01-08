@@ -46,7 +46,7 @@ for i in range(1,10):
 #             time.sleep(5)
 #             url = 'https://cx.shouji.360.cn/phonearea.php?number=' + hao
 #             print(url)
-#             # r = http.request('GET','https://cx.shouji.360.cn/phonearea.php?number=13396590555').data
+#             # r = http.request('GET','https://cx.shouji.360.cn/phonearea.php?number=13838384380').data
 #             urllib3.disable_warnings()
 #             r = http.request('GET', url,headers=headers).data
 #             time.sleep(5)
