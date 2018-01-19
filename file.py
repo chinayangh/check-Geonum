@@ -35,7 +35,7 @@ for i in range(1,10):
     txt.close()
 # urllib3.disable_warnings()
 # headers={"User-Agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36"}
-# http = urllib3.PoolManager(timeout=10000.0)
+# http = urllib3.PoolManager(timeout=100.0)
 # while 1:
 #     lines = f.readlines()
 #     if not lines:
@@ -47,7 +47,6 @@ for i in range(1,10):
 #             url = 'https://cx.shouji.360.cn/phonearea.php?number=' + hao
 #             print(url)
 #             # r = http.request('GET','https://cx.shouji.360.cn/phonearea.php?number=13838384380').data
-#             urllib3.disable_warnings()
 #             r = http.request('GET', url,headers=headers).data
 #             time.sleep(5)
 #             #print(r)
