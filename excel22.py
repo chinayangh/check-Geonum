@@ -38,7 +38,7 @@ for i in range(1,190):
     hao=str(num)
     #table.cell(row=i, column=1, value=hao)
     #urllib3.disable_warnings()
-    #http = urllib3.PoolManager(num_pools=100,maxsize=100, block=False)
+    #http = urllib3.PoolManager(num_pools=100,maxsize=100, block=True)
     url = 'https://cx.shouji.360.cn/phonearea.php?number=' + hao
     r = http.request('GET', url).data
     msg = json.loads(r.decode('utf-8'))
